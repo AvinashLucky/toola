@@ -32,13 +32,14 @@ export default function homePage() {
           />
         </div>
       </div>
-
-      {/* <div
-        className="bg-[#662AB2] min-h-screen text-white relative"
+      <div
+        className="bg-[#FFFFFF] min-h-screen text-white relative"
         style={{
-          clipPath: "ellipse(50% 27% at 50% 100%)",
+          clipPath: "ellipse(90% 50% at 50% 95%)",
         }}
-      ></div> */}
+      >
+        <h1 className="text-red-600">Trusted by businesses that operate on</h1>
+      </div>
     </div>
   );
 }
